@@ -130,7 +130,7 @@ while (cyw43_arch_wifi_connect_timeout_ms("SeuSSID", "SuaSenha123", CYW43_AUTH_W
 Quando o projeto estiver rodando, o display OLED mostrará a letra recebida e as três opções de resposta.
 Exemplo de saída no display OLED:
 Letra: X
-# A
+  A
   B
   X
 
