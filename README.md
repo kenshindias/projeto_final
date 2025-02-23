@@ -1,9 +1,18 @@
 
 # 🟢 BitBraille - Sistema Interativo de Aprendizado em Braille com Raspberry Pi Pico W
 
-Este projeto, desenvolvido no âmbito do programa **EmbarcaTech: Formação Básica em Software Embarcado**, implementa um sistema interativo de aprendizado em Braille utilizando um **Raspberry Pi Pico W**. O projeto combina LEDs WS2812, um display OLED, buzzers, botões e um joystick para proporcionar uma experiência educacional prática e intuitiva.
+# ✨ Introdução: Um Recurso Educacional para Professores no Ensino de Braille
+Este projeto, desenvolvido no âmbito do programa EmbarcaTech: Formação Básica em Software Embarcado, implementa um sistema interativo de aprendizado em Braille utilizando um Raspberry Pi Pico W.
 
-Vale lembrar que esse é um projeto inicial. A idéia é fazer um sistema que reconheça uma letra falada para aparecer na matriz de led 5x5.
+$ ⚠️ Importante: 
+Este projeto não foi desenvolvido para pessoas cegas, mas sim como uma ferramenta educacional para professores e educadores. A proposta é auxiliar no ensino do alfabeto Braille, permitindo que professores utilizem a interface visual e tátil para ensinar crianças cegas de forma mais prática e intuitiva.
+
+💡 O sistema combina LEDs WS2812, um display OLED, buzzers, botões e um joystick, criando uma experiência de aprendizado interativa.
+
+# 🚀 Próximo Passo: Reconhecimento de Voz
+Vale lembrar que este é um projeto inicial. A ideia futura é integrar um sistema de reconhecimento de voz, onde a letra falada será automaticamente exibida na matriz de LEDs 5x5, tornando o processo de aprendizado ainda mais dinâmico e acessível.
+
+Este projeto busca ser uma ponte entre professores e alunos, proporcionando um ambiente educacional mais inclusivo e eficaz! 🦾📚
 
 ---
 
