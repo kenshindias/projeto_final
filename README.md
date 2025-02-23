@@ -4,7 +4,7 @@
 # ✨ Introdução: Um Recurso Educacional para Professores no Ensino de Braille
 Este projeto, desenvolvido no âmbito do programa EmbarcaTech: Formação Básica em Software Embarcado, implementa um sistema interativo de aprendizado em Braille utilizando um Raspberry Pi Pico W.
 
-$ ⚠️ Importante: 
+# ⚠️ Importante: 
 Este projeto não foi desenvolvido para pessoas cegas, mas sim como uma ferramenta educacional para professores e educadores. A proposta é auxiliar no ensino do alfabeto Braille, permitindo que professores utilizem a interface visual e tátil para ensinar crianças cegas de forma mais prática e intuitiva.
 
 💡 O sistema combina LEDs WS2812, um display OLED, buzzers, botões e um joystick, criando uma experiência de aprendizado interativa.
