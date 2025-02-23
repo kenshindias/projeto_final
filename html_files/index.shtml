@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PicoW Webserver</title>
+    <style>
+        /* Estilo geral da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Container principal */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        /* Estilo para os títulos */
+        h1 {
+            color: #0078d4;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #555;
+            border-bottom: 2px solid #0078d4;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        /* Estilo para os parágrafos */
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        /* Campo de entrada */
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 300px;
+            margin: 10px 0;
+            border: 1px solid #0078d4;
+            border-radius: 5px;
+        }
+
+        /* Botão de envio */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #0078d4;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #0056a1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PicoW Webserver Tutorial</h1>
+
+        <h2>Envio de Letra para o Pico W</h2>
+        <form action="/send.cgi" method="get">
+            <label for="letra">Digite uma letra:</label><br>
+            <input type="text" id="letra" name="letra" maxlength="1" required><br>
+            <button type="submit" class="button">Enviar Letra</button>
+        </form>
+    </div>
+</body>
+</html>
