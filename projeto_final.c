@@ -419,7 +419,7 @@ int main() {
     gpio_put(LED_WIFI, false);
 
     // Tenta conectar
-    while (cyw43_arch_wifi_connect_timeout_ms("Kenshin", "AjIDias1994*", CYW43_AUTH_WPA2_AES_PSK, 30000) != 0) {
+    while (cyw43_arch_wifi_connect_timeout_ms("SeuSSID", "SuaSenha123", CYW43_AUTH_WPA2_AES_PSK, 30000) != 0) {
         printf("Tentando conectar...\n");
     }
     printf("Conectado ao Wi-Fi!\n");
