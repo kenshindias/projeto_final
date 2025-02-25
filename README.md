@@ -31,7 +31,7 @@ Este projeto busca ser uma ponte entre professores e alunos, proporcionando um a
 ## 🎥 **Demonstração**
 Confira o funcionamento do projeto neste vídeo:
 
-![Demonstração do Projeto BitBraille]()
+[![Vídeo de Demonstração](https://img.youtube.com/vi/YcVx5gn9KY0/0.jpg)](https://youtu.be/YcVx5gn9KY0)
 
 ---
 
